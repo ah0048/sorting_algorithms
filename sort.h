@@ -23,7 +23,7 @@ void insertion_sort_list(listint_t **list);
 void swap(listint_t *before, listint_t *after);
 void selection_sort(int *array, size_t size);
 void quick_sort(int *array, size_t size);
-size_t partition(int *array, size_t size,size_t start, size_t end);
+size_t partition(int *array, size_t size, size_t start, size_t end);
 void Quick_sort(int *array, size_t start, size_t end, size_t size);
 void swap_arr(int *array, size_t size, int *a, int *b);
 #endif
